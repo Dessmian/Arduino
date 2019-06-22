@@ -1,0 +1,14 @@
+void asdasd(void)
+{
+  for (i=0;i<255;i++)
+  {
+    analogWrite(11,i);
+    delay(time);
+  }
+  delay(1000);
+   for (i=255;i>0;i--)
+  {
+    analogWrite(11,i);
+    delay(time);
+  }
+}
